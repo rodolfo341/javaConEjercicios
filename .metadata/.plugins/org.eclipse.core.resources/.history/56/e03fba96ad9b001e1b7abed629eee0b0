@@ -15,7 +15,7 @@ public class ej05 {
         
 		System.out.println(rojo + "LUNES \t\t MARTES \t MIERCOLES" + resetearColor);
 		System.out.println("-------------------------------------------");
-		System.out.println(verde +"desayuno \t desayuno \t desayuno" + resetearColor);
+		System.out.println(amarillo +"desayuno \t desayuno \t desayuno" + resetearColor);
 		System.out.println(amarillo + "cena \t\t cena \t\t cena" + resetearColor);
 	}
 
