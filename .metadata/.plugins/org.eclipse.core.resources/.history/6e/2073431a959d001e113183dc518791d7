@@ -9,18 +9,18 @@ package S02;
 * @author Rodolfo Aravena
 * 
 */
+import java.util.Scanner;
 
 public class ej01 {
 
 	public static void main(String[] args) {
-		int x = 144;
-		int y = 999;
-		
-		System.out.println("x = " + x);
-		System.out.println("y = " + y);
-		System.out.println("x + y = " + ( x + y ));
-		System.out.println("x - y = \" + ( x - y )");		
-		System.out.println("x * y = \" + ( x * y )");
-		System.out.println("x / y = \" + ( x / y )");
+		Scanner sc = new Scanner(System.in);
+		char res;
+
+		do {
+			
+			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
+		} while (Character.toUpperCase(res) == 'S');		
 	}
+
 }
