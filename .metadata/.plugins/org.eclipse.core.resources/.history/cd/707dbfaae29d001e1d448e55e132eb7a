@@ -15,15 +15,9 @@ public class ej08 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		final int valorHora = 12;
-		int cantHoras;
-		int sueldo;
 						
 		do {
-			System.out.print("Cantidad de horas trabajadas: "); cantHoras = sc.nextInt();
-			sueldo = cantHoras * valorHora;
-			System.out.println("Sueldo = " + sueldo);
-			
+		
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
 		
