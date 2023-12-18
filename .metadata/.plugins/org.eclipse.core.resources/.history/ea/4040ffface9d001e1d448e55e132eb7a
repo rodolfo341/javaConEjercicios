@@ -17,23 +17,18 @@ public class ej04 {
 		char res;
 		double x;
 		double y;
+		double total;
 		char operador;
 		
 		do {
 			System.out.print("x = "); x = sc.nextDouble();
-			
-			do { System.out.print("  ( + - * / ) "); operador = sc.next().charAt(0); 
-			} while ( operador != '+' && operador != '-' && operador != '*' && operador != '/');
+			do {
+				System.out.print("  ( + - * / ) "); operador = sc.next().charAt(0);				
+			} while ( operador != '+');
 			
 			System.out.print("y = "); y = sc.nextDouble();
 			
-			     if ( operador == '+') System.out.println( x + " + " + y + " = " + ( x + y ) );
-			else if ( operador == '-') System.out.println( x + " - " + y + " = " + ( x - y ) );
-			else if ( operador == '*') System.out.println( x + " * " + y + " = " + ( x * y ) );
-			else if ( operador == '/') System.out.println( x + " / " + y + " = " + ( x / y ) );
-							
-			System.out.println("");
-				
+			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
 		

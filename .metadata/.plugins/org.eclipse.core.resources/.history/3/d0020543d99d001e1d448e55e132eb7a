@@ -22,7 +22,9 @@ public class ej04 {
 		do {
 			System.out.print("x = "); x = sc.nextDouble();
 			
-			do { System.out.print("  ( + - * / ) "); operador = sc.next().charAt(0); 
+			do { 
+				System.out.print("  ( + - * / ) "); operador = sc.next().charAt(0);
+				System.out.print("\n");
 			} while ( operador != '+' && operador != '-' && operador != '*' && operador != '/');
 			
 			System.out.print("y = "); y = sc.nextDouble();
@@ -32,8 +34,6 @@ public class ej04 {
 			else if ( operador == '*') System.out.println( x + " * " + y + " = " + ( x * y ) );
 			else if ( operador == '/') System.out.println( x + " / " + y + " = " + ( x / y ) );
 							
-			System.out.println("");
-				
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
 		
