@@ -21,7 +21,7 @@ public class ej04 {
 		do {
 			System.out.println("pesos: "); pesos = sc.nextDouble();
 			
-			System.out.println("los $" + pesos + " equivalen a " + "$" + (875.72 * pesos ) );		
+			System.out.println("los $" + pesos + " equivalen a " + "$" + (875.72 / pesos ) );		
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
