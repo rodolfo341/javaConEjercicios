@@ -1,5 +1,13 @@
 package S02;
-
+/**
+* 
+* Realiza un conversor de dolares a pesos. 
+* La cantidad en dolares que se quiere convertir 
+* deberá estar almacenada en una variable
+* 
+* @author Rodolfo Aravena
+* 
+*/
 import java.util.Scanner;
 
 public class ej04 {

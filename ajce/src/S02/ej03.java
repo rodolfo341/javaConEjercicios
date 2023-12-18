@@ -1,6 +1,10 @@
 package S02;
 /**
 * 
+* Crea las variables nombre, direccion y telefono y 
+* asígnales los valores correspondientes. 
+* Muestra los valores de esas variables por pantalla
+* 
 * @author Rodolfo Aravena
 * 
 */

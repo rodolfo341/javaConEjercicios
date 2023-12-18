@@ -1,6 +1,9 @@
 package S02;
 /**
 * 
+* Crea la variable nombre y asígnale tu nombre completo. 
+* Muestra su valor por pantalla 
+* 
 * @author Rodolfo Aravena
 * 
 */

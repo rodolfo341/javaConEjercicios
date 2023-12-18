@@ -1,6 +1,10 @@
 package S02;
 /**
 * 
+* Realiza un conversor de pesos a dolares. 
+* La cantidad en pesetas que se quiere convertir 
+* deberá estar almacenada en una variable.
+* 
 * @author Rodolfo Aravena
 * 
 */
