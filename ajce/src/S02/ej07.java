@@ -1,5 +1,9 @@
 package S02;
-
+/**
+* 
+* @author Rodolfo Aravena
+* 
+*/
 import java.util.Scanner;
 
 public class ej07 {

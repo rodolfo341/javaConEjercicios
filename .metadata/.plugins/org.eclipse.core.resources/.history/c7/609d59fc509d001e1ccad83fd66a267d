@@ -1,12 +1,8 @@
 package S02;
-/**
-* 
-* @author Rodolfo Aravena
-* 
-*/
+
 import java.util.Scanner;
 
-public class ej05 {
+public class ej06 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,6 +12,7 @@ public class ej05 {
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
+		
 	}
 
 }
