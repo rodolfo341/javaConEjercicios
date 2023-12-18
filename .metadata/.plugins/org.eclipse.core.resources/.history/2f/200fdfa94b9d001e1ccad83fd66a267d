@@ -24,7 +24,7 @@ public class ej10 {
 		System.out.println(verd + "        //" + rojo + "__" + verd + "\\\\" + reset);
 		System.out.println(verd + "       //" + rojo + "____" + verd + "\\\\" + reset);
 		System.out.println(verd + "      //" + rojo + "______" + verd + "\\\\" + reset);
-		System.out.println(rojo + "          ||");
+		System.out.println(rojo + "         ||");
 	}
 
 }
