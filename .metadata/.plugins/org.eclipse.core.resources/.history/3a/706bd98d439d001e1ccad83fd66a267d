@@ -13,13 +13,12 @@ package S09;
 public class ej09 {
 
 	public static void main(String[] args) {
-		System.out.println("\n\n");
-		System.out.println("          *");
-		System.out.println("         /\\");
-		System.out.println("        /__\\");
-		System.out.println("       /____\\");
-		System.out.println("      /______\\");
-		System.out.println("         ||");
+		System.out.println("\n\n\n\n");
+		System.out.println("       /\\");
+		System.out.println("      /  \\");
+		System.out.println("     /    \\");
+		System.out.println("    /______\\");
+		System.out.println("       ||");
 
 	}
 
