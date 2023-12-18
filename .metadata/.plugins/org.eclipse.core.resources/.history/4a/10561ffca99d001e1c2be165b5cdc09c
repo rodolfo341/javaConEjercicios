@@ -8,18 +8,19 @@ package S02;
 * @author Rodolfo Aravena
 * 
 */
+import java.util.Scanner;
 
 public class ej07 {
 
 	public static void main(String[] args) {
-		char vocal1 = 'y';
-		char vocal2 = 'o';
-		String mama = " mi mama me mima ";
-		String papa = " mi papa tambien ";
-		
-		System.out.println(mama + vocal1 + papa);
-		System.out.println(mama + vocal2 + papa);
-		
+		Scanner sc = new Scanner(System.in);
+		char res;
+
+		do {
+			
+			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
+		} while (Character.toUpperCase(res) == 'S');
+
 	}
 
 }

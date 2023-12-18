@@ -18,7 +18,6 @@ public class ej07 {
 		String papa = " mi papa tambien ";
 		
 		System.out.println(mama + vocal1 + papa);
-		System.out.println(mama + vocal2 + papa);
 		
 	}
 
