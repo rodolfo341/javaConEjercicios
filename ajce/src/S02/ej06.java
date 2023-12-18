@@ -18,8 +18,7 @@ public class ej06 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		double precioBruto = 0;
-		double total = 0;
-		
+				
 		do {
 			System.out.println("Precio bruto: "); precioBruto = sc.nextDouble();
 			
@@ -27,6 +26,8 @@ public class ej06 {
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
+		
+		sc.close();
 		
 	}
 

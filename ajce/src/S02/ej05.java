@@ -14,8 +14,7 @@ public class ej05 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		char res;
-		double pesos = 0;
+		char res;		
 		double dolares = 0;
 
 		do {
@@ -25,6 +24,8 @@ public class ej05 {
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
+		
+		sc.close();
 	}
 
 }
