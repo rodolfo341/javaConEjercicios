@@ -1,9 +1,10 @@
 package S03;
 /**
-*
-* @author Rodolfo Aravena
-* 
-*/
+ * Escribe un programa que calcule el área de un rectángulo
+ * 
+ * @author Rodolfo Aravena
+ * 
+ */
 public class ej05 {
 	public static void main(String[] args) {
 		
