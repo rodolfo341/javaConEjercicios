@@ -11,24 +11,19 @@ package S02;
 * @author Rodolfo Aravena
 * 
 */
+import java.util.Scanner;
 
 public class ej08 {
 
 	public static void main(String[] args) {
-		char A = 'a';
-		char E = 'e';
-		char I = 'i';
-		char O = 'o';
-		char U = 'u';
-		
-		String cadena = String.valueOf(A) + " , " +
-						String.valueOf(E) + " , " +
-						String.valueOf(I) + " , " +
-						String.valueOf(O) + " , " +
-						String.valueOf(U);
-		
-		System.out.println("Las vocales son: " + cadena);
-		
+		Scanner sc = new Scanner(System.in);
+		char res;
+
+		do {
+			
+			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
+		} while (Character.toUpperCase(res) == 'S');
+
 	}
 
 }

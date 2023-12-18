@@ -27,7 +27,7 @@ public class ej08 {
 						String.valueOf(O) + " , " +
 						String.valueOf(U);
 		
-		System.out.println("Las vocales son: " + cadena);
+		System.out.println(cadena);
 		
 	}
 

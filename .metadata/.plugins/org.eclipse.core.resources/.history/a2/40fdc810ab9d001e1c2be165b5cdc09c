@@ -15,19 +15,15 @@ package S02;
 public class ej08 {
 
 	public static void main(String[] args) {
-		char A = 'a';
-		char E = 'e';
-		char I = 'i';
-		char O = 'o';
-		char U = 'u';
+		char a = 'a';
+		char e = 'e';
+		char i = 'i';
+		char o = 'o';
+		char u = 'u';
 		
-		String cadena = String.valueOf(A) + " , " +
-						String.valueOf(E) + " , " +
-						String.valueOf(I) + " , " +
-						String.valueOf(O) + " , " +
-						String.valueOf(U);
+		String cadena = String.valueOf(a).valueOf(e);
 		
-		System.out.println("Las vocales son: " + cadena);
+		System.out.println(cadena);
 		
 	}
 
