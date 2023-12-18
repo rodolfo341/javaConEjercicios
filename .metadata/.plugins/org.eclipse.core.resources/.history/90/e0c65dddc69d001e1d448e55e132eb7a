@@ -22,7 +22,7 @@ public class ej02 {
 		
 		do {
 			System.out.print("pesos: "); pesos = sc.nextDouble();
-			dolar = pesos / 873.780;
+			dolar = pesos * 873.780;
 			System.out.println("$" + pesos + " = " + " $" + dolar + " dolares");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
