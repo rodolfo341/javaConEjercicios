@@ -20,8 +20,8 @@ public class ej03 {
 						
 		do {
 			System.out.print("dolares: "); dolar = sc.nextDouble();
-			pesos = dolar *  874.31;
-			System.out.println("$" + dolar + " dolar = " + " $" + pesos + " pesos");
+			pesos = dolar *  0.00114;
+			System.out.println("$" + pesos + " = " + " $" + dolar + " dolares");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');

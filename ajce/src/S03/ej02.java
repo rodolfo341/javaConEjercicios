@@ -18,7 +18,6 @@ public class ej02 {
 		char res;
 		double pesos;
 		double dolar;
-		double total;
 		
 		do {
 			System.out.print("pesos: "); pesos = sc.nextDouble();
