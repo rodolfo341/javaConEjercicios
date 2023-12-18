@@ -21,7 +21,7 @@ public class ej05 {
 		do {
 			System.out.println("dolares: "); dolares = sc.nextDouble();
 			
-			System.out.println("los $" + dolares + " equivalen a " + "$" + (881 * dolares ) );	
+			System.out.println("los $" + dolares + " equivalen a " + "$" + (875.72 / dolares ) );	
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
