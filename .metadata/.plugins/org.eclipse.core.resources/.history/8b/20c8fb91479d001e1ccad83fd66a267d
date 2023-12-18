@@ -1,0 +1,15 @@
+package S10;
+
+public class ej10 {
+
+	public static void main(String[] args) {
+		System.out.println("\n\n");
+		System.out.println("          *");
+		System.out.println("         /\\");
+		System.out.println("        /__\\");
+		System.out.println("       /____\\");
+		System.out.println("      /______\\");
+		System.out.println("         ||");
+	}
+
+}

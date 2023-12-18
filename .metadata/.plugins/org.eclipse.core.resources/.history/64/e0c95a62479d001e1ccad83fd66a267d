@@ -20,6 +20,7 @@ public class ej09 {
 		System.out.println("       /____\\");
 		System.out.println("      /______\\");
 		System.out.println("         ||");
+
 	}
 
 }
