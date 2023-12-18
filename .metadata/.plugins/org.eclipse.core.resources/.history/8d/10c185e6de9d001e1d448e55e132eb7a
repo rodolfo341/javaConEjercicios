@@ -15,15 +15,9 @@ public class ej07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		final double IVA = 1.21;
-		double bruto;
-		double total;
-		
+						
 		do {
-			System.out.println("bruto = "); bruto = sc.nextDouble();
-			total = bruto * IVA;
-			System.out.println("El precio total es : " + total);
-			
+		
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
 		
