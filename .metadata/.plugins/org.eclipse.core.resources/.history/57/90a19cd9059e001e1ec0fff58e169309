@@ -19,8 +19,6 @@ public class ej10 {
 								
 		do {
 			System.out.println("MB"); MB = sc.nextInt();
-			KB = MB * 1024;
-			System.out.println("Los " + MB + " MB son " + KB + " KB");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
