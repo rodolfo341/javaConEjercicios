@@ -31,15 +31,16 @@ public class ej12 {
 		double NPE;
 		double NSE;
 		double ND;
+		double media;
 		
 		do {
 			System.out.print("Introduce la nota del primer examen: "); NPE = sc.nextDouble();
-			System.out.print("¿Qué nota quieres sacar en el trimestre? "); ND = sc.nextDouble();
+			System.out.print("¿Qué nota quieres sacar en el trimestre?"); ND = sc.nextDouble();
 			
-			NPE = NPE * 0.4;
-			NSE = ( ND - NPE ) / 0.6;
+			NPE *=0.4;
+			NSE = ND - NPE;
 			
-			System.out.println("Para tener un " + ND + " en el trimestre necesitas sacar un " +  NSE  + " en el segundo examen");
+			System.out.println("Para tener un " + ND + " en el trimestre necesitas sacar un " + ( NSE * 0.6 ) + " en el segundo examen");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
