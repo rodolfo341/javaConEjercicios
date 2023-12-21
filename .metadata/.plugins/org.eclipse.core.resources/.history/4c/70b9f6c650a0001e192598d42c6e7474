@@ -21,11 +21,7 @@ public class ej02 {
 				
 		do {
 			do { System.out.print("Hora? "); hora = sc.nextInt(); } while ( hora < 0 || hora > 24 );
-			
-			 	 if ( hora > 20 ) System.out.println("Buenas noches"); 
-			else if ( hora > 12 ) System.out.println("Buenas tardes");
-			else if ( hora > 5  ) System.out.println("Buenos dias");
-			else System.out.println("Zzz..");			
+			do { System.out.print("Hora? "); hora = sc.nextInt(); } while ( hora < 0 || hora > 24 );
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
