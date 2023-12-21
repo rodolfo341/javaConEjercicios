@@ -22,7 +22,7 @@ public class ej01 {
 			while( !dia.equalsIgnoreCase("lunes")     &&!dia.equalsIgnoreCase("martes") && !dia.equalsIgnoreCase("miercoles") &&!dia.equalsIgnoreCase("jueves") &&
 				   !dia.equalsIgnoreCase("viernes")   &&!dia.equalsIgnoreCase("sabado") && !dia.equalsIgnoreCase("domingo") ) {
 				
-				System.out.print("dia: "); dia = sc.nextLine();
+				System.out.println("dia: "); dia = sc.nextLine();
 				
 			}
 			
