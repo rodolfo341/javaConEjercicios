@@ -15,7 +15,6 @@ public class ej03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int dia;
 							
 		do {
 		
