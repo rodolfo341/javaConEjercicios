@@ -1,16 +1,13 @@
 package S04;
 /**
  * 
- * Realiza un programa que calcule la media de tres notas
- * 
  * @author Rodolfo Aravena
  * 
  */
-public class ej07 {
+public class ej01 {
 
 	public static void main(String[] args) {
 		
-
 	}
 
 }
