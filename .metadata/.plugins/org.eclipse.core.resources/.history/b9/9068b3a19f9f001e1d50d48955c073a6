@@ -18,13 +18,14 @@ public class ej01 {
 		String dia;
 		
 		do {
-			dia = "x";
-			while( !dia.equalsIgnoreCase("lunes")     &&!dia.equalsIgnoreCase("martes") && !dia.equalsIgnoreCase("miercoles") &&!dia.equalsIgnoreCase("jueves") &&
-				   !dia.equalsIgnoreCase("viernes")   &&!dia.equalsIgnoreCase("sabado") && !dia.equalsIgnoreCase("domingo") ) {
+			do {
 				
 				System.out.println("dia: "); dia = sc.nextLine();
 				
-			}
+			} while( !dia.equalsIgnoreCase("lunes")     &&!dia.equalsIgnoreCase("martes") &&
+					 !dia.equalsIgnoreCase("miercoles") &&!dia.equalsIgnoreCase("jueves") &&
+					 !dia.equalsIgnoreCase("viernes")   &&!dia.equalsIgnoreCase("sabado") &&
+					 !dia.equalsIgnoreCase("domingo") );
 			
 			switch (dia) {
 				case "lunes":     {	System.out.println("Programacion del lunes"    ); break; }
@@ -37,7 +38,6 @@ public class ej01 {
 			}
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
-			sc.nextLine();
 		} while (Character.toUpperCase(res) == 'S');
 		
 		sc.close();
