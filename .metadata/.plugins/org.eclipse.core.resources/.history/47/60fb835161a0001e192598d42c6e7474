@@ -16,6 +16,7 @@ public class ej03 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		int dia;
+
 		
 		do {
 			do { System.out.print("numero del dia: "); dia = sc.nextInt(); } while ( dia > 7 || dia < 1 );
