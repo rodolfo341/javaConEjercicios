@@ -31,21 +31,9 @@ public class ej04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		int horas;
-						
+							
 		do {
-			horas = 0;
-			do {
-				System.out.println("Por favor, introduzca el número de horas trabajadas durante la semana: "); 
-				horas = sc.nextInt();				
-			} while ( horas <= 0 );
-			
-			if ( horas <= 40 ) horas *= 12;
-			else horas = 40 * 12 + ( ( horas - 40 ) * 16 );
-			
-			System.out.println("El sueldo semanal que le corresponde es de " + horas + " euros");
-			
-			
+		
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
