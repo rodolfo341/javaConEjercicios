@@ -25,7 +25,7 @@ public class ej06 {
 		do {
 			System.out.print("h: "); h = sc.nextDouble();
 			t = Math.sqrt( (2 * h) / g );
-			System.out.println("t= " + t + "s");
+			System.out.println("t= " + t);
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
