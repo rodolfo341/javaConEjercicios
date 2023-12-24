@@ -33,9 +33,9 @@ public class ej05 {
 		
 		
 		do {
-			System.out.print("\nEste programa resuelve ecuaciones de primer grado del tipo ax + b = 0");
-			System.out.print("\nPor favor, introduzca el valor de a:"); a = sc.nextDouble();
-			System.out.print("\nAhora introduzca el valor de b:"); b = sc.nextDouble();
+			System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");
+			System.out.print("Por favor, introduzca el valor de a:"); a = sc.nextDouble();
+			System.out.print("Ahora introduzca el valor de b:"); b = sc.nextDouble();
 			
 			if ( a == 0) System.out.println("Esa ecuación no tiene solución real.");
 			else {
