@@ -28,13 +28,9 @@ public class ej05 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		int a;
-		int b;
 		
 		do {
-			System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");
-			System.out.println("ingrese a: "); a = sc.nextInt();
-			System.out.println("ingrese b: "); b = sc.nextInt();
-			
+			System.out.println("ingrese a: ");
 						
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
